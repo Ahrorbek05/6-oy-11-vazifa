@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    max-width: 1920px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF6F3D;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 56px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    /* text-align: left; */
+    color: rgba(64, 60, 57, 1);
+}
+
+.languageSelect select{
+    width: 60px;
+    padding: 5px;
+    border-color: #ccc;
+    border-radius: 8px;
+}
+
+.nav a:hover{
+    color: #FF6F3D;
+    border-bottom: 2px solid #FF6F3D;
+    width: 10px;
+}
+
+.auth a {
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.signIn {
+    color: #FF6F3D;
+}
+
+.signUp {
+    background-color: #FF6F3D;
+    color: #fff;
+}

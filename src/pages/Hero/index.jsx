@@ -2,6 +2,9 @@ import React, { useContext } from 'react';
 import styles from './index.module.css';
 import { ThemeContext } from '../../App';
 import { useTranslation } from 'react-i18next';
+import hero from '../../../public/hero.png';
+import image from '../../../public/image.png';
+import heroImage from '../../../public/heroImage.png';
 
 function Hero() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -44,16 +47,16 @@ function Hero() {
         </div>
       </div>
       <div>
-        <img className={styles.heroImage} src="/public/hero.png" alt="Groceries delivery" />
+        <img className={styles.heroImage} src={hero} alt="Groceries delivery" />
       </div>
       <div className={styles.heroImg}>
         <div className={styles.wrapper}>
-          <img src="/public/heroImage.png" alt="" />
+          <img src={heroImage} alt="" />
           <p>{t('Spinach')}</p>
           <p>$12.00</p>
         </div>
         <div className={styles.wrapper}>
-          <img className={styles.image} src="/public/image.png" alt="" />
+          <img className={styles.image} src={image} alt="" />
           <p>{t('Carrot')}</p>
           <p>$9.00</p>
         </div>

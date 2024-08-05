@@ -29,14 +29,14 @@
     color: rgba(64, 60, 57, 1);
 }
 
-.languageSelect select{
+.languageSelect select {
     width: 60px;
     padding: 5px;
     border-color: #ccc;
     border-radius: 8px;
 }
 
-.nav a:hover{
+.nav a:hover {
     color: #FF6F3D;
     border-bottom: 2px solid #FF6F3D;
     width: 10px;
@@ -56,4 +56,27 @@
 .signUp {
     background-color: #FF6F3D;
     color: #fff;
+}
+
+.header.darkMode {
+    background-color: #333;
+    color: #fff;
+}
+
+.header.darkMode a{
+    color: #ccc;
+}
+
+.header.lightMode {
+    background-color: #fff;
+    color: #000;
+}
+
+.languageSelect select {
+    padding: 5px;
+}
+
+.auth a {
+    margin-left: 10px;
+    text-decoration: none;
 }

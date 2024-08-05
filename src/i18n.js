@@ -24,7 +24,13 @@ i18next
           "Cash": "Yetkazib berishda naqd pul",
           "Spinach": "Yangi ismaloq",
           "Fast": "Tez yetkazib berish",
-          "Carrot": "Yangi sabzi"
+          "Carrot": "Yangi sabzi",
+          "Lorem": "Bu muhim ekanligini bilish muhim, undan keyin mijozlarga xizmat ko'rsatish kerak.",
+          "Honey": "Asal",
+          "Flour": "Gullar",
+          "Spices & Seasonings": "Ziravorlar va ziravorlar",
+          "Vegetables & Fruits": "Sabzavotlar va mevalar",
+          "Dairy Products": "Kundalik mahsulotlar",
         }
       },
       en: {
@@ -38,13 +44,17 @@ i18next
           "signIn": "Sign In",
           "signUp": "Sign Up",
           "Get": "Get fresh groceries online without going out to prepare delicious meals with the freshest ingredients",
-          "Let": "your groceries come to you",
+          "Let": "Let your groceries come to you",
           "Fresh": "Vegetables",
           "Guarantee" : "100% Guarantee",
           "Cash": 'on Delivery',
           "Spinach": "Fresh Spinach",
           "Fast": "Delivery",
           "Carrot": "Fresh Carrot",
+          "Spices & Seasonings": "Spices & Seasonings",
+          "Diary Products": "Diary Products",
+          "Vegetables & Fruits": "Vegetables & Fruits",
+          "Lorem": "It's important to know that this is important, followed by customer service."
         }
       },
       ru: {
@@ -65,6 +75,10 @@ i18next
           "Spinach": "Свежий шпинат",
           "Fast": "Быстрая доставка",
           "Carrot": "Свежая морковь",
+          "Lorem": "Важно знать, что это важно, за этим будет следить служба поддержки клиентов.",
+          "Spices & Seasonings": "Специи и приправы",
+          "Diary Products": "Молочные продукты",
+          "Vegetables & Fruits": "Овощи и фрукты",
         }
       }
     },

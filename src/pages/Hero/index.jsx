@@ -44,16 +44,16 @@ function Hero() {
         </div>
       </div>
       <div>
-        <img className={styles.heroImage} src="./public/assets/hero.png" alt="Groceries delivery" />
+        <img className={styles.heroImage} src="/public/assets/hero.png" alt="Groceries delivery" />
       </div>
       <div className={styles.heroImg}>
         <div className={styles.wrapper}>
-          <img src="./public/assets/heroImage.png" alt="" />
+          <img src="/public/assets/heroImage.png" alt="" />
           <p>{t('Spinach')}</p>
           <p>$12.00</p>
         </div>
         <div className={styles.wrapper}>
-          <img className={styles.image} src="./public/assets/image.png" alt="" />
+          <img className={styles.image} src="/public/assets/image.png" alt="" />
           <p>{t('Carrot')}</p>
           <p>$9.00</p>
         </div>

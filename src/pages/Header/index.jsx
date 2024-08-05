@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}><a href="logo"><img src="./public/assets/logo.svg" alt="" /></a></div>
+      <div className={styles.logo}><a href="logo"><img src="./public/logo.svg" alt="" /></a></div>
       <nav className={styles.nav}>
         <ul>
             <li><a href="/">{t('home')}</a></li> 

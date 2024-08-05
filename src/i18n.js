@@ -17,7 +17,14 @@ i18next
           "contact": "Bog'lanish",
           "signIn": "Kirish",
           "signUp": "Ro'yxatdan o'tish",
-          "Get fresh groceries online without stepping out to make delicious food with the freshest ingredients": "Eng yangi ingredientlar bilan mazali taom tayyorlash uchun tashqariga chiqmasdan yangi oziq-ovqat mahsulotlarini onlayn xarid qiling"
+          "Get": "Eng yangi ingredientlar bilan mazali taom tayyorlash uchun tashqariga chiqmasdan yangi oziq-ovqat mahsulotlarini onlayn xarid qiling",
+          "Let": "Oziq-ovqatlaringiz sizga yetib kelsin",
+          "Fresh": "Yangi sabzavotlar",
+          "Guarantee" : "100% Kafolat",
+          "Cash": "Yetkazib berishda naqd pul",
+          "Spinach": "Yangi ismaloq",
+          "Fast": "Tez yetkazib berish",
+          "Carrot": "Yangi sabzi"
         }
       },
       en: {
@@ -30,6 +37,14 @@ i18next
           "contact": "Contact",
           "signIn": "Sign In",
           "signUp": "Sign Up",
+          "Get": "Get fresh groceries online without going out to prepare delicious meals with the freshest ingredients",
+          "Let": "your groceries come to you",
+          "Fresh": "Vegetables",
+          "Guarantee" : "100% Guarantee",
+          "Cash": 'on Delivery',
+          "Spinach": "Fresh Spinach",
+          "Fast": "Delivery",
+          "Carrot": "Fresh Carrot",
         }
       },
       ru: {
@@ -42,6 +57,14 @@ i18next
           "contact": "Контакт",
           "signIn": "Войти",
           "signUp": "Регистрация",
+          "Get": "Покупайте свежие продукты онлайн, не выходя из дома, и готовьте вкусные блюда из самых свежих ингредиентов.",
+          "Let": "Пусть ваши продукты придут к вам",
+          "Fresh": "Свежие овощи",
+          "Guarantee" : "100% Гарантия" ,
+          "Cash": 'Оплата при доставке',
+          "Spinach": "Свежий шпинат",
+          "Fast": "Быстрая доставка",
+          "Carrot": "Свежая морковь",
         }
       }
     },

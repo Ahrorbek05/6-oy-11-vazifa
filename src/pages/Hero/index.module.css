@@ -115,6 +115,10 @@
     margin-bottom: 10px;
 }
 
+i{
+    color: rgb(231, 79, 14);
+}
+
 .features i {
     color: rgba(240, 183, 13, 1);
     border-radius: 12px;
@@ -137,7 +141,7 @@
 }
 
 .darkMode{
-    background-color: rgb(56, 130, 56);
+    background-color: rgb(6, 6, 19);
 }
 
 .darkMode p{

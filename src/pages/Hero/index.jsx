@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
 import styles from './index.module.css';
 import { ThemeContext } from '../../App';
+import { useTranslation } from 'react-i18next';
 
 function Hero() {
   const { theme, setTheme } = useContext(ThemeContext);
+  const { t, i18n } = useTranslation();
 
   function handleClick(newTheme) {
     setTheme(newTheme);
@@ -24,20 +26,20 @@ function Hero() {
         >
           <i className="fa-solid fa-moon"></i>
         </button>
-        <h1>Let your <span className={styles.highlight}>groceries</span> come to you</h1>
-        <p>Get fresh groceries online without stepping out to make delicious food with the freshest ingredients.</p>
+        <h1>{t('Let')}<span className={styles.highlight}></span></h1>
+        <p> {t('Get')}</p>
         <div className={styles.searchBar}>
           <input type="text" placeholder="Search here" />
           <button type="button"><i className="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div className={styles.features}>
           <span className={styles.span}>
-            <span><i className="fa-regular fa-circle-check"></i> Fresh Vegetables</span>
-            <span><i className="fa-regular fa-circle-check"></i> 100% Guarantee</span>
+            <span><i className="fa-regular fa-circle-check"></i> {t('Fresh')} </span>
+            <span><i className="fa-regular fa-circle-check"></i> {t('Guarantee')}</span>
           </span>
           <span className={styles.span}>
-            <span><i className="fa-regular fa-circle-check"></i> Cash on Delivery</span>
-            <span><i className="fa-regular fa-circle-check"></i> Fast Delivery</span>
+            <span><i className="fa-regular fa-circle-check"></i> {t('Cash')}</span>
+            <span><i className="fa-regular fa-circle-check"></i> {t('Fast')}</span>
           </span>
         </div>
       </div>
@@ -47,12 +49,12 @@ function Hero() {
       <div className={styles.heroImg}>
         <div className={styles.wrapper}>
           <img src="./src/assets/heroImage.png" alt="" />
-          <p>Fresh Spinach</p>
+          <p>{t('Spinach')}</p>
           <p>$12.00</p>
         </div>
         <div className={styles.wrapper}>
           <img className={styles.image} src="./src/assets/image.png" alt="" />
-          <p>Fresh Carrot</p>
+          <p>{t('Carrot')}</p>
           <p>$9.00</p>
         </div>
       </div>
